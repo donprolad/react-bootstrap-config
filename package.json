@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-config",
+  "version": "1.0.0",
+  "description": "\"bootstrap for a react application\"",
+  "main": "index.js",
+  "author": "Don Prolad",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "style-loader": "^0.23.1"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-env",
+      "babel-preset-react"
+    ]
+  },
+  "scripts": {
+    "dev" : "webpack-dev-server --mode development"
+  }
+}
